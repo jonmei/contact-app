@@ -1,0 +1,29 @@
+{
+  "name": "contact-app",
+  "version": "1.0.0",
+  "description": "Contact App",
+  "main": "pet_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmei/contact-app.git"
+  },
+  "author": "Telesoftas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonmei/contact-app/issues"
+  },
+  "homepage": "https://github.com/jonmei/contact-app#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "forever": "^0.15.2",
+    "lodash": "^4.14.2",
+    "mongoose": "^4.5.8",
+    "nodemon": "^1.10.0",
+    "request": "^2.74.0"
+  }
+}
