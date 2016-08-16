@@ -1,0 +1,15 @@
+.container {
+    margin-top: 10px;
+}
+
+.table.table-striped input[type="text"] {
+    width: 100%;
+}
+
+.control-label {
+    text-transform: capitalize;
+}
+
+.btn-margin {
+    margin-top:5px;
+}
