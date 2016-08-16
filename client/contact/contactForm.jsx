@@ -40,7 +40,7 @@ var ContactForm = React.createClass({
     },
     sendContact: function(newContact) {
         $.ajax({
-            url: serverIp + "/contact",
+            url: serverAttr + "/contact",
             data: newContact,
             method: "POST",
         }).success(function(res){

@@ -1,6 +1,3 @@
-var contactForm = require("./contactForm.jsx");
-var contactList = require("./contactList.jsx");
-
 var ContactsBox = React.createClass({
     getInitialState: function() {
         return {

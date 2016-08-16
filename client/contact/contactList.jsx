@@ -7,7 +7,7 @@ var ContactList = React.createClass({
     },
     getContacts:function(){
         $.ajax({
-            url: serverIp + "/contact",
+            url: serverAttr + "/contact",
             method: "GET"
         }).success(function(res){
             this.setState({
@@ -120,7 +120,7 @@ var Contacts = React.createClass({
     },
     deleteContact: function(id,updated_data,updated_editState) {
         $.ajax({
-            url: serverIp + "/contact/"+id,
+            url: serverAttr + "/contact/"+id,
             method: "DELETE",
         }).success(function(res){
             this.setState({
@@ -132,7 +132,7 @@ var Contacts = React.createClass({
     updateDateContactInServer: function (id,index,editStates,editedContacts) {
         console.log(editedContacts[index]);
         $.ajax({
-            url: serverIp + "/contact/"+id,
+            url: serverAttr + "/contact/"+id,
             method: "PUT",
             data: editedContacts[index]
         }).success(function(res){
