@@ -4,14 +4,14 @@
 
 This our SWAT team app. Made for learning purposes. Should work as rudimentary contact management app.
 
-## Installation
+## Server installation
 
 First run `npm install`.
 Then `npm start` to start the server.
 
-## Tests
+## Client setup
 
-## Contributors
+Things..
 
 ## License
 

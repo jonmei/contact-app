@@ -2,7 +2,7 @@
   "name": "contact-app",
   "version": "1.0.0",
   "description": "Contact App",
-  "main": "pet_server.js",
+  "main": "contact_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon contact_server.js"
@@ -18,13 +18,15 @@
   },
   "homepage": "https://github.com/jonmei/contact-app#readme",
   "dependencies": {
-    "async": "^2.0.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "express-redis-cache": "^0.4.2",
     "forever": "^0.15.2",
+    "helmet": "^2.1.2",
     "lodash": "^4.14.2",
     "mongoose": "^4.5.8",
     "nodemon": "^1.10.0",
+    "redis": "^2.6.2",
     "request": "^2.74.0"
   }
 }
